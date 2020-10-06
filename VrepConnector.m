@@ -1,6 +1,4 @@
 classdef VrepConnector
-    %UNTITLED2 Summary of this class goes here
-    %   Detailed explanation goes here
     
     properties
         sim;				%Similar to fd
@@ -11,8 +9,6 @@ classdef VrepConnector
     
     methods
         function obj = VrepConnector(port, step_time_vrep)
-            %UNTITLED3 Construct an instance of this class
-            %   Detailed explanation goes here
             addpath vrep_lib/;						%Adding the APIs to the path
             obj.step_time_vrep = step_time_vrep;	
             obj.sim = remApi('remoteApi');			%RemoteAPI object
@@ -37,8 +33,6 @@ classdef VrepConnector
         end
         
         function Close(obj)
-            %METHOD1 Summary of this method goes here
-            %   Detailed explanation goes here
             obj.sim.simxStopSimulation(obj.clientID, obj.sim.simx_opmode_blocking);
             obj.sim.simxFinish(-1);
             obj.sim.delete();
