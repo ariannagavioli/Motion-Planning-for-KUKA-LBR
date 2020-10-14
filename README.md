@@ -4,7 +4,7 @@ The project implements Motion Planning for the KUKA LBR iiwa robotic arm.
 
 Given a set of points the end effector must go through and an obstacle, the goal of the project is to implement a Motion Planning, performing null-space reconfiguration, using MATLAB and the CoppeliaSim simulator.
 ### Prerequisites and how to run it
-In order to run the project, MATLAB 2020 and [CoppeliaSim robot simulator](https://www.coppeliarobotics.com/downloads) must be installed. Add the libraries necessary for the communication with CoppeliaSim:
+In order to run the project, MATLAB 2020 and [CoppeliaSim robot simulator](https://www.coppeliarobotics.com/downloads) must be installed. Add the libraries necessary for the communication with CoppeliaSim, copying them from the CoppeliaSim installation folder:
 * `remApi.m`
 * `remoteApi.so`
 * `remoteApiProto.m`
