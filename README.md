@@ -20,4 +20,4 @@ The following videos show two versions of motion planning for the arm: on the le
 ![](https://github.com/ariannagavioli/Motion-Planning-for-KUKA-LBR/blob/main/resources/cartesian_std_side.gif)
 ![](https://github.com/ariannagavioli/Motion-Planning-for-KUKA-LBR/blob/main/resources/cartesian_augmented_side.gif)
 
-For further information, please consult the [project presentation](https://docs.google.com/presentation/d/1LdzxDmdqFgt6EMwRkEascuR0Q9dO_xD2QAOD-iXdemc/edit?usp=sharing).
+For further information, please consult the [project presentation](https://docs.google.com/presentation/d/1LdzxDmdqFgt6EMwRkEascuR0Q9dO_xD2QAOD-iXdemc/edit?usp=sharing) or the [video youtube](https://youtu.be/5dU3OGA9ofs)
